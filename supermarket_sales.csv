@@ -1,0 +1,501 @@
+Invoice ID,Branch,City,Customer type,Gender,Product line,Unit price,Quantity,Tax 5%,Total,Date,Time,Payment,cogs,gross income,Rating
+INV-1000,C,Los Angeles,Member,Female,Health & Beauty,87.02,6,26.11,548.23,2025-01-01,10:00:00,Credit card,522.12,26.11,7.8
+INV-1001,A,Los Angeles,Member,Male,Electronics,54.31,7,19.01,399.18,2025-01-02,10:01:12.144288,Cash,380.17,19.01,4.2
+INV-1002,C,Chicago,Member,Female,Food & Beverages,50.52,3,7.58,159.14,2025-01-03,10:02:24.288577,Cash,151.56,7.58,9.5
+INV-1003,C,Los Angeles,Member,Female,Sports,7.44,7,2.6,54.68,2025-01-04,10:03:36.432865,Cash,52.08,2.6,9.7
+INV-1004,A,New York,Normal,Male,Clothing,37.42,8,14.97,314.33,2025-01-05,10:04:48.577154,Cash,299.36,14.97,6.6
+INV-1005,A,New York,Member,Female,Home & Garden,41.12,6,12.34,259.06,2025-01-06,10:06:00.721442,Ewallet,246.72,12.34,9.4
+INV-1006,C,New York,Normal,Male,Clothing,42.89,9,19.3,405.31,2025-01-07,10:07:12.865731,Ewallet,386.01,19.3,7.8
+INV-1007,B,Chicago,Normal,Male,Home & Garden,60.12,6,18.04,378.76,2025-01-08,10:08:25.010020,Credit card,360.72,18.04,5.9
+INV-1008,C,Los Angeles,Member,Female,Electronics,55.69,9,25.06,526.27,2025-01-09,10:09:37.154308,Cash,501.21,25.06,2.6
+INV-1009,C,New York,Normal,Male,Health & Beauty,62.75,4,12.55,263.55,2025-01-10,10:10:49.298597,Cash,251.0,12.55,5.1
+INV-1010,C,Chicago,Normal,Female,Electronics,77.66,8,31.06,652.34,2025-01-11,10:12:01.442885,Credit card,621.28,31.06,6.0
+INV-1011,C,Los Angeles,Normal,Female,Food & Beverages,82.23,4,16.45,345.37,2025-01-12,10:13:13.587174,Cash,328.92,16.45,8.8
+INV-1012,A,Chicago,Normal,Male,Food & Beverages,73.22,2,7.32,153.76,2025-01-13,10:14:25.731462,Cash,146.44,7.32,5.3
+INV-1013,C,New York,Member,Male,Home & Garden,95.77,9,43.1,905.03,2025-01-14,10:15:37.875751,Cash,861.93,43.1,9.1
+INV-1014,B,New York,Normal,Male,Sports,6.73,5,1.68,35.33,2025-01-15,10:16:50.020040,Cash,33.65,1.68,7.1
+INV-1015,A,New York,Member,Male,Sports,23.6,4,4.72,99.12,2025-01-16,10:18:02.164328,Cash,94.4,4.72,2.2
+INV-1016,B,Chicago,Normal,Female,Home & Garden,5.72,2,0.57,12.01,2025-01-17,10:19:14.308617,Credit card,11.44,0.57,10.0
+INV-1017,B,Chicago,Normal,Female,Food & Beverages,66.51,1,3.33,69.84,2025-01-18,10:20:26.452905,Cash,66.51,3.33,5.7
+INV-1018,B,New York,Member,Male,Food & Beverages,90.31,7,31.61,663.78,2025-01-19,10:21:38.597194,Credit card,632.17,31.61,4.5
+INV-1019,B,Chicago,Normal,Female,Food & Beverages,28.13,6,8.44,177.22,2025-01-20,10:22:50.741482,Cash,168.78,8.44,6.9
+INV-1020,A,New York,Normal,Female,Electronics,93.07,2,9.31,195.45,2025-01-21,10:24:02.885771,Ewallet,186.14,9.31,2.0
+INV-1021,A,New York,Normal,Female,Food & Beverages,10.73,8,4.29,90.13,2025-01-22,10:25:15.030060,Ewallet,85.84,4.29,6.7
+INV-1022,B,Los Angeles,Member,Female,Clothing,93.77,4,18.75,393.83,2025-01-23,10:26:27.174348,Ewallet,375.08,18.75,5.5
+INV-1023,B,Chicago,Normal,Male,Health & Beauty,38.4,8,15.36,322.56,2025-01-24,10:27:39.318637,Ewallet,307.2,15.36,4.7
+INV-1024,A,New York,Member,Male,Food & Beverages,14.63,7,5.12,107.53,2025-01-25,10:28:51.462925,Credit card,102.41,5.12,9.6
+INV-1025,A,New York,Normal,Female,Home & Garden,51.16,5,12.79,268.59,2025-01-26,10:30:03.607214,Credit card,255.8,12.79,5.7
+INV-1026,A,Chicago,Member,Male,Health & Beauty,29.39,8,11.76,246.88,2025-01-27,10:31:15.751503,Cash,235.12,11.76,3.0
+INV-1027,C,Los Angeles,Member,Male,Electronics,32.06,9,14.43,302.97,2025-01-28,10:32:27.895791,Ewallet,288.54,14.43,5.1
+INV-1028,C,Los Angeles,Normal,Male,Home & Garden,34.19,5,8.55,179.5,2025-01-29,10:33:40.040080,Credit card,170.95,8.55,9.3
+INV-1029,C,New York,Normal,Female,Health & Beauty,81.29,5,20.32,426.77,2025-01-30,10:34:52.184368,Cash,406.45,20.32,2.6
+INV-1030,B,Chicago,Member,Female,Home & Garden,56.22,2,5.62,118.06,2025-01-31,10:36:04.328657,Cash,112.44,5.62,2.9
+INV-1031,C,Los Angeles,Member,Female,Electronics,34.57,5,8.64,181.49,2025-02-01,10:37:16.472945,Credit card,172.85,8.64,1.1
+INV-1032,B,Chicago,Normal,Male,Clothing,62.98,3,9.45,198.39,2025-02-02,10:38:28.617234,Ewallet,188.94,9.45,1.1
+INV-1033,B,Chicago,Member,Female,Electronics,73.03,7,25.56,536.77,2025-02-03,10:39:40.761523,Cash,511.21,25.56,8.5
+INV-1034,C,New York,Normal,Female,Electronics,30.9,5,7.72,162.22,2025-02-04,10:40:52.905811,Ewallet,154.5,7.72,7.6
+INV-1035,B,Los Angeles,Normal,Male,Home & Garden,44.29,8,17.72,372.04,2025-02-05,10:42:05.050100,Ewallet,354.32,17.72,4.2
+INV-1036,C,New York,Normal,Female,Sports,16.58,1,0.83,17.41,2025-02-06,10:43:17.194388,Ewallet,16.58,0.83,7.3
+INV-1037,C,Los Angeles,Normal,Female,Food & Beverages,22.21,3,3.33,69.96,2025-02-07,10:44:29.338677,Cash,66.63,3.33,4.6
+INV-1038,A,Los Angeles,Member,Male,Food & Beverages,69.71,3,10.46,219.59,2025-02-08,10:45:41.482965,Ewallet,209.13,10.46,9.6
+INV-1039,C,Los Angeles,Normal,Male,Clothing,22.24,9,10.01,210.17,2025-02-09,10:46:53.627254,Cash,200.16,10.01,9.7
+INV-1040,A,Los Angeles,Member,Male,Clothing,54.89,5,13.72,288.17,2025-02-10,10:48:05.771543,Ewallet,274.45,13.72,4.5
+INV-1041,C,Los Angeles,Normal,Female,Food & Beverages,72.36,9,32.56,683.8,2025-02-11,10:49:17.915831,Cash,651.24,32.56,8.7
+INV-1042,C,Chicago,Member,Female,Sports,15.15,9,6.82,143.17,2025-02-12,10:50:30.060120,Ewallet,136.35,6.82,8.0
+INV-1043,A,New York,Normal,Female,Food & Beverages,58.89,1,2.94,61.83,2025-02-13,10:51:42.204408,Credit card,58.89,2.94,3.8
+INV-1044,A,Chicago,Member,Male,Sports,29.37,2,2.94,61.68,2025-02-14,10:52:54.348697,Ewallet,58.74,2.94,3.1
+INV-1045,C,Los Angeles,Member,Male,Clothing,96.48,5,24.12,506.52,2025-02-15,10:54:06.492985,Ewallet,482.4,24.12,5.1
+INV-1046,B,New York,Normal,Female,Health & Beauty,50.94,4,10.19,213.95,2025-02-16,10:55:18.637274,Cash,203.76,10.19,8.0
+INV-1047,A,Los Angeles,Normal,Female,Home & Garden,81.57,9,36.71,770.84,2025-02-17,10:56:30.781563,Cash,734.13,36.71,9.6
+INV-1048,B,New York,Normal,Male,Clothing,57.27,7,20.04,420.93,2025-02-18,10:57:42.925851,Ewallet,400.89,20.04,7.9
+INV-1049,B,Chicago,Normal,Male,Clothing,9.12,6,2.74,57.46,2025-02-19,10:58:55.070140,Credit card,54.72,2.74,8.7
+INV-1050,B,New York,Member,Male,Electronics,65.15,7,22.8,478.85,2025-02-20,11:00:07.214428,Credit card,456.05,22.8,6.4
+INV-1051,A,New York,Normal,Male,Electronics,95.38,1,4.77,100.15,2025-02-21,11:01:19.358717,Cash,95.38,4.77,8.5
+INV-1052,B,New York,Member,Female,Electronics,62.15,1,3.11,65.26,2025-02-22,11:02:31.503006,Credit card,62.15,3.11,8.1
+INV-1053,A,New York,Member,Male,Home & Garden,82.82,8,33.13,695.69,2025-02-23,11:03:43.647294,Ewallet,662.56,33.13,4.4
+INV-1054,B,New York,Normal,Female,Electronics,89.0,2,8.9,186.9,2025-02-24,11:04:55.791583,Cash,178.0,8.9,6.0
+INV-1055,C,Los Angeles,Member,Female,Sports,26.67,9,12.0,252.03,2025-02-25,11:06:07.935871,Ewallet,240.03,12.0,8.2
+INV-1056,C,New York,Member,Female,Food & Beverages,25.14,7,8.8,184.78,2025-02-26,11:07:20.080160,Cash,175.98,8.8,1.4
+INV-1057,A,New York,Member,Male,Health & Beauty,63.04,6,18.91,397.15,2025-02-27,11:08:32.224448,Cash,378.24,18.91,8.3
+INV-1058,C,Chicago,Member,Male,Clothing,44.05,1,2.2,46.25,2025-02-28,11:09:44.368737,Cash,44.05,2.2,2.6
+INV-1059,C,New York,Normal,Male,Sports,84.79,1,4.24,89.03,2025-03-01,11:10:56.513026,Cash,84.79,4.24,5.6
+INV-1060,B,Chicago,Normal,Male,Health & Beauty,90.5,2,9.05,190.05,2025-03-02,11:12:08.657314,Credit card,181.0,9.05,8.3
+INV-1061,A,Los Angeles,Normal,Female,Sports,38.58,6,11.57,243.05,2025-03-03,11:13:20.801603,Ewallet,231.48,11.57,3.3
+INV-1062,B,New York,Normal,Male,Sports,27.5,6,8.25,173.25,2025-03-04,11:14:32.945891,Ewallet,165.0,8.25,3.2
+INV-1063,B,Chicago,Member,Male,Clothing,79.15,2,7.92,166.22,2025-03-05,11:15:45.090180,Ewallet,158.3,7.92,4.6
+INV-1064,B,Chicago,Member,Female,Food & Beverages,31.11,1,1.56,32.67,2025-03-06,11:16:57.234468,Cash,31.11,1.56,9.1
+INV-1065,B,Los Angeles,Normal,Male,Electronics,83.15,5,20.79,436.54,2025-03-07,11:18:09.378757,Credit card,415.75,20.79,1.0
+INV-1066,B,New York,Normal,Female,Home & Garden,45.26,5,11.32,237.62,2025-03-08,11:19:21.523046,Ewallet,226.3,11.32,9.1
+INV-1067,B,New York,Normal,Female,Food & Beverages,68.42,2,6.84,143.68,2025-03-09,11:20:33.667334,Credit card,136.84,6.84,2.4
+INV-1068,B,Chicago,Member,Female,Home & Garden,14.08,6,4.22,88.7,2025-03-10,11:21:45.811623,Cash,84.48,4.22,9.9
+INV-1069,A,New York,Normal,Female,Clothing,64.27,9,28.92,607.35,2025-03-11,11:22:57.955911,Ewallet,578.43,28.92,9.6
+INV-1070,C,Chicago,Normal,Female,Clothing,47.92,2,4.79,100.63,2025-03-12,11:24:10.100200,Credit card,95.84,4.79,5.5
+INV-1071,B,New York,Normal,Female,Clothing,60.73,2,6.07,127.53,2025-03-13,11:25:22.244488,Cash,121.46,6.07,5.6
+INV-1072,B,Chicago,Member,Female,Health & Beauty,20.96,3,3.14,66.02,2025-03-14,11:26:34.388777,Credit card,62.88,3.14,5.3
+INV-1073,B,New York,Member,Female,Home & Garden,75.0,7,26.25,551.25,2025-03-15,11:27:46.533066,Ewallet,525.0,26.25,6.7
+INV-1074,B,Los Angeles,Member,Male,Food & Beverages,86.97,6,26.09,547.91,2025-03-16,11:28:58.677354,Ewallet,521.82,26.09,1.8
+INV-1075,B,New York,Member,Male,Food & Beverages,25.59,8,10.24,214.96,2025-03-17,11:30:10.821643,Cash,204.72,10.24,1.3
+INV-1076,B,New York,Member,Male,Sports,14.09,8,5.64,118.36,2025-03-18,11:31:22.965931,Cash,112.72,5.64,1.5
+INV-1077,C,Los Angeles,Member,Male,Sports,7.25,6,2.18,45.68,2025-03-19,11:32:35.110220,Cash,43.5,2.18,5.0
+INV-1078,C,New York,Member,Female,Sports,65.99,3,9.9,207.87,2025-03-20,11:33:47.254509,Credit card,197.97,9.9,3.5
+INV-1079,B,Los Angeles,Member,Male,Clothing,62.67,3,9.4,197.41,2025-03-21,11:34:59.398797,Credit card,188.01,9.4,6.6
+INV-1080,C,New York,Normal,Female,Food & Beverages,56.94,1,2.85,59.79,2025-03-22,11:36:11.543086,Credit card,56.94,2.85,9.9
+INV-1081,A,Chicago,Normal,Male,Home & Garden,27.03,7,9.46,198.67,2025-03-23,11:37:23.687374,Cash,189.21,9.46,4.5
+INV-1082,B,Chicago,Member,Male,Clothing,42.14,5,10.54,221.24,2025-03-24,11:38:35.831663,Ewallet,210.7,10.54,6.2
+INV-1083,A,New York,Member,Male,Health & Beauty,61.48,4,12.3,258.22,2025-03-25,11:39:47.975951,Ewallet,245.92,12.3,4.7
+INV-1084,A,New York,Normal,Female,Sports,52.19,4,10.44,219.2,2025-03-26,11:41:00.120240,Credit card,208.76,10.44,8.6
+INV-1085,B,New York,Member,Male,Clothing,98.84,4,19.77,415.13,2025-03-27,11:42:12.264529,Credit card,395.36,19.77,9.1
+INV-1086,C,Chicago,Member,Female,Clothing,17.96,6,5.39,113.15,2025-03-28,11:43:24.408817,Ewallet,107.76,5.39,8.9
+INV-1087,A,New York,Member,Female,Health & Beauty,71.04,8,28.42,596.74,2025-03-29,11:44:36.553106,Ewallet,568.32,28.42,9.8
+INV-1088,B,Chicago,Normal,Male,Electronics,43.41,8,17.36,364.64,2025-03-30,11:45:48.697394,Credit card,347.28,17.36,1.2
+INV-1089,A,Los Angeles,Normal,Male,Food & Beverages,45.68,5,11.42,239.82,2025-03-31,11:47:00.841683,Credit card,228.4,11.42,8.6
+INV-1090,A,Chicago,Normal,Male,Home & Garden,73.17,6,21.95,460.97,2025-04-01,11:48:12.985971,Ewallet,439.02,21.95,7.8
+INV-1091,A,Chicago,Normal,Female,Electronics,70.78,4,14.16,297.28,2025-04-02,11:49:25.130260,Cash,283.12,14.16,3.1
+INV-1092,A,Los Angeles,Normal,Male,Sports,99.17,9,44.63,937.16,2025-04-03,11:50:37.274549,Credit card,892.53,44.63,9.6
+INV-1093,C,Chicago,Member,Female,Clothing,17.2,8,6.88,144.48,2025-04-04,11:51:49.418837,Ewallet,137.6,6.88,2.3
+INV-1094,A,New York,Normal,Female,Health & Beauty,14.89,1,0.74,15.63,2025-04-05,11:53:01.563126,Ewallet,14.89,0.74,7.1
+INV-1095,A,New York,Member,Male,Health & Beauty,73.81,2,7.38,155.0,2025-04-06,11:54:13.707414,Ewallet,147.62,7.38,3.0
+INV-1096,A,Chicago,Member,Male,Food & Beverages,59.95,9,26.98,566.53,2025-04-07,11:55:25.851703,Ewallet,539.55,26.98,4.9
+INV-1097,C,New York,Normal,Female,Electronics,31.05,8,12.42,260.82,2025-04-08,11:56:37.995991,Cash,248.4,12.42,7.5
+INV-1098,A,Chicago,Normal,Female,Food & Beverages,12.54,3,1.88,39.5,2025-04-09,11:57:50.140280,Ewallet,37.62,1.88,6.1
+INV-1099,A,New York,Member,Female,Clothing,13.14,8,5.26,110.38,2025-04-10,11:59:02.284569,Credit card,105.12,5.26,4.8
+INV-1100,C,New York,Member,Male,Food & Beverages,89.95,1,4.5,94.45,2025-04-11,12:00:14.428857,Cash,89.95,4.5,3.9
+INV-1101,C,Chicago,Member,Female,Home & Garden,23.23,4,4.65,97.57,2025-04-12,12:01:26.573146,Ewallet,92.92,4.65,8.6
+INV-1102,C,New York,Normal,Male,Health & Beauty,35.72,3,5.36,112.52,2025-04-13,12:02:38.717434,Cash,107.16,5.36,2.3
+INV-1103,A,Chicago,Normal,Female,Health & Beauty,26.53,6,7.96,167.14,2025-04-14,12:03:50.861723,Credit card,159.18,7.96,4.9
+INV-1104,C,New York,Normal,Female,Sports,38.72,7,13.55,284.59,2025-04-15,12:05:03.006012,Ewallet,271.04,13.55,9.1
+INV-1105,C,New York,Normal,Male,Sports,11.6,4,2.32,48.72,2025-04-16,12:06:15.150300,Credit card,46.4,2.32,8.6
+INV-1106,A,Los Angeles,Normal,Female,Clothing,54.31,7,19.01,399.18,2025-04-17,12:07:27.294589,Ewallet,380.17,19.01,4.6
+INV-1107,C,Los Angeles,Member,Male,Home & Garden,11.42,9,5.14,107.92,2025-04-18,12:08:39.438877,Ewallet,102.78,5.14,7.9
+INV-1108,A,Chicago,Normal,Male,Electronics,81.03,2,8.1,170.16,2025-04-19,12:09:51.583166,Ewallet,162.06,8.1,8.4
+INV-1109,B,Los Angeles,Member,Female,Food & Beverages,27.2,3,4.08,85.68,2025-04-20,12:11:03.727454,Ewallet,81.6,4.08,9.0
+INV-1110,C,Chicago,Member,Male,Clothing,56.3,5,14.08,295.58,2025-04-21,12:12:15.871743,Ewallet,281.5,14.08,5.9
+INV-1111,B,Los Angeles,Member,Male,Sports,88.61,3,13.29,279.12,2025-04-22,12:13:28.016032,Cash,265.83,13.29,2.8
+INV-1112,A,New York,Normal,Female,Food & Beverages,66.83,8,26.73,561.37,2025-04-23,12:14:40.160320,Ewallet,534.64,26.73,3.3
+INV-1113,C,Chicago,Normal,Male,Sports,55.63,8,22.25,467.29,2025-04-24,12:15:52.304609,Ewallet,445.04,22.25,3.7
+INV-1114,A,Chicago,Normal,Male,Food & Beverages,35.81,8,14.32,300.8,2025-04-25,12:17:04.448897,Cash,286.48,14.32,6.3
+INV-1115,B,New York,Member,Male,Electronics,36.64,9,16.49,346.25,2025-04-26,12:18:16.593186,Cash,329.76,16.49,1.3
+INV-1116,A,Chicago,Member,Female,Clothing,68.6,4,13.72,288.12,2025-04-27,12:19:28.737474,Cash,274.4,13.72,6.7
+INV-1117,C,Chicago,Member,Male,Food & Beverages,99.44,5,24.86,522.06,2025-04-28,12:20:40.881763,Cash,497.2,24.86,4.3
+INV-1118,C,Los Angeles,Member,Female,Home & Garden,67.87,5,16.97,356.32,2025-04-29,12:21:53.026052,Cash,339.35,16.97,3.7
+INV-1119,B,Chicago,Member,Female,Health & Beauty,57.99,8,23.2,487.12,2025-04-30,12:23:05.170340,Cash,463.92,23.2,8.9
+INV-1120,A,New York,Member,Male,Home & Garden,74.41,7,26.04,546.91,2025-05-01,12:24:17.314629,Ewallet,520.87,26.04,5.1
+INV-1121,C,Los Angeles,Normal,Male,Home & Garden,49.19,9,22.14,464.85,2025-05-02,12:25:29.458917,Ewallet,442.71,22.14,1.9
+INV-1122,B,Los Angeles,Normal,Male,Health & Beauty,10.71,8,4.28,89.96,2025-05-03,12:26:41.603206,Credit card,85.68,4.28,8.4
+INV-1123,C,New York,Normal,Female,Home & Garden,58.42,2,5.84,122.68,2025-05-04,12:27:53.747494,Ewallet,116.84,5.84,1.4
+INV-1124,C,New York,Normal,Male,Food & Beverages,95.97,4,19.19,403.07,2025-05-05,12:29:05.891783,Ewallet,383.88,19.19,7.5
+INV-1125,A,Los Angeles,Member,Male,Food & Beverages,21.65,6,6.49,136.39,2025-05-06,12:30:18.036072,Cash,129.9,6.49,8.0
+INV-1126,C,Chicago,Member,Male,Food & Beverages,70.55,2,7.06,148.16,2025-05-07,12:31:30.180360,Cash,141.1,7.06,4.2
+INV-1127,A,Los Angeles,Normal,Male,Health & Beauty,24.09,7,8.43,177.06,2025-05-08,12:32:42.324649,Ewallet,168.63,8.43,8.4
+INV-1128,C,New York,Member,Male,Home & Garden,55.9,3,8.38,176.08,2025-05-09,12:33:54.468937,Credit card,167.7,8.38,5.6
+INV-1129,B,Los Angeles,Normal,Female,Health & Beauty,14.18,3,2.13,44.67,2025-05-10,12:35:06.613226,Cash,42.54,2.13,5.2
+INV-1130,C,New York,Normal,Female,Food & Beverages,47.79,2,4.78,100.36,2025-05-11,12:36:18.757515,Ewallet,95.58,4.78,1.4
+INV-1131,A,Los Angeles,Normal,Male,Home & Garden,76.84,8,30.74,645.46,2025-05-12,12:37:30.901803,Ewallet,614.72,30.74,3.6
+INV-1132,A,Chicago,Member,Male,Home & Garden,38.02,6,11.41,239.53,2025-05-13,12:38:43.046092,Credit card,228.12,11.41,9.4
+INV-1133,B,Los Angeles,Normal,Male,Sports,68.17,1,3.41,71.58,2025-05-14,12:39:55.190380,Credit card,68.17,3.41,4.5
+INV-1134,C,Los Angeles,Normal,Male,Sports,80.57,1,4.03,84.6,2025-05-15,12:41:07.334669,Cash,80.57,4.03,5.9
+INV-1135,C,New York,Normal,Female,Electronics,93.08,7,32.58,684.14,2025-05-16,12:42:19.478957,Credit card,651.56,32.58,5.8
+INV-1136,B,New York,Member,Male,Clothing,27.29,8,10.92,229.24,2025-05-17,12:43:31.623246,Ewallet,218.32,10.92,6.3
+INV-1137,C,New York,Member,Female,Sports,42.94,5,10.74,225.44,2025-05-18,12:44:43.767535,Ewallet,214.7,10.74,1.6
+INV-1138,C,Los Angeles,Normal,Female,Health & Beauty,19.48,5,4.87,102.27,2025-05-19,12:45:55.911823,Credit card,97.4,4.87,4.3
+INV-1139,A,Chicago,Member,Male,Sports,99.29,4,19.86,417.02,2025-05-20,12:47:08.056112,Credit card,397.16,19.86,7.5
+INV-1140,C,New York,Member,Female,Electronics,93.07,6,27.92,586.34,2025-05-21,12:48:20.200400,Credit card,558.42,27.92,2.8
+INV-1141,C,New York,Member,Female,Home & Garden,56.3,6,16.89,354.69,2025-05-22,12:49:32.344689,Credit card,337.8,16.89,2.8
+INV-1142,B,Los Angeles,Member,Female,Electronics,84.99,3,12.75,267.72,2025-05-23,12:50:44.488977,Cash,254.97,12.75,1.1
+INV-1143,B,New York,Member,Female,Home & Garden,54.49,9,24.52,514.93,2025-05-24,12:51:56.633266,Credit card,490.41,24.52,4.9
+INV-1144,A,Chicago,Member,Male,Home & Garden,64.24,7,22.48,472.16,2025-05-25,12:53:08.777555,Cash,449.68,22.48,8.9
+INV-1145,C,Chicago,Member,Male,Clothing,13.47,1,0.67,14.14,2025-05-26,12:54:20.921843,Ewallet,13.47,0.67,1.5
+INV-1146,C,New York,Member,Female,Sports,76.75,7,26.86,564.11,2025-05-27,12:55:33.066132,Credit card,537.25,26.86,2.7
+INV-1147,C,New York,Member,Male,Health & Beauty,17.13,5,4.28,89.93,2025-05-28,12:56:45.210420,Cash,85.65,4.28,3.8
+INV-1148,A,Los Angeles,Member,Male,Health & Beauty,83.48,5,20.87,438.27,2025-05-29,12:57:57.354709,Credit card,417.4,20.87,7.6
+INV-1149,A,Chicago,Normal,Male,Food & Beverages,79.29,2,7.93,166.51,2025-05-30,12:59:09.498997,Ewallet,158.58,7.93,6.8
+INV-1150,B,Chicago,Normal,Male,Home & Garden,72.33,4,14.47,303.79,2025-05-31,13:00:21.643286,Ewallet,289.32,14.47,4.7
+INV-1151,A,New York,Member,Male,Health & Beauty,8.44,6,2.53,53.17,2025-06-01,13:01:33.787575,Ewallet,50.64,2.53,7.8
+INV-1152,C,Los Angeles,Normal,Female,Clothing,33.8,7,11.83,248.43,2025-06-02,13:02:45.931863,Credit card,236.6,11.83,6.5
+INV-1153,C,Chicago,Normal,Male,Home & Garden,30.0,5,7.5,157.5,2025-06-03,13:03:58.076152,Credit card,150.0,7.5,9.1
+INV-1154,A,Chicago,Member,Male,Clothing,39.21,9,17.64,370.53,2025-06-04,13:05:10.220440,Cash,352.89,17.64,8.4
+INV-1155,C,Los Angeles,Member,Male,Health & Beauty,13.33,3,2.0,41.99,2025-06-05,13:06:22.364729,Ewallet,39.99,2.0,3.3
+INV-1156,C,Los Angeles,Member,Male,Health & Beauty,94.01,1,4.7,98.71,2025-06-06,13:07:34.509018,Credit card,94.01,4.7,3.4
+INV-1157,A,Chicago,Normal,Female,Food & Beverages,57.61,4,11.52,241.96,2025-06-07,13:08:46.653306,Ewallet,230.44,11.52,2.1
+INV-1158,A,Chicago,Normal,Female,Health & Beauty,34.02,9,15.31,321.49,2025-06-08,13:09:58.797595,Ewallet,306.18,15.31,4.0
+INV-1159,C,Los Angeles,Member,Female,Home & Garden,42.71,4,8.54,179.38,2025-06-09,13:11:10.941883,Cash,170.84,8.54,10.0
+INV-1160,C,Chicago,Member,Female,Home & Garden,47.48,2,4.75,99.71,2025-06-10,13:12:23.086172,Cash,94.96,4.75,4.7
+INV-1161,C,New York,Member,Male,Home & Garden,62.06,5,15.52,325.82,2025-06-11,13:13:35.230460,Cash,310.3,15.52,3.0
+INV-1162,B,New York,Normal,Female,Food & Beverages,53.99,3,8.1,170.07,2025-06-12,13:14:47.374749,Cash,161.97,8.1,7.9
+INV-1163,B,Los Angeles,Normal,Male,Food & Beverages,92.34,9,41.55,872.61,2025-06-13,13:15:59.519038,Ewallet,831.06,41.55,5.9
+INV-1164,B,Los Angeles,Normal,Male,Health & Beauty,52.21,4,10.44,219.28,2025-06-14,13:17:11.663326,Cash,208.84,10.44,2.3
+INV-1165,A,Los Angeles,Normal,Male,Electronics,99.26,6,29.78,625.34,2025-06-15,13:18:23.807615,Cash,595.56,29.78,4.4
+INV-1166,B,New York,Member,Male,Electronics,85.89,2,8.59,180.37,2025-06-16,13:19:35.951903,Cash,171.78,8.59,4.7
+INV-1167,A,Chicago,Member,Male,Food & Beverages,24.81,6,7.44,156.3,2025-06-17,13:20:48.096192,Cash,148.86,7.44,7.8
+INV-1168,A,New York,Member,Female,Health & Beauty,93.41,3,14.01,294.24,2025-06-18,13:22:00.240480,Ewallet,280.23,14.01,1.2
+INV-1169,B,Chicago,Member,Female,Electronics,16.05,9,7.22,151.67,2025-06-19,13:23:12.384769,Cash,144.45,7.22,3.4
+INV-1170,B,New York,Normal,Female,Health & Beauty,82.66,2,8.27,173.59,2025-06-20,13:24:24.529058,Ewallet,165.32,8.27,5.7
+INV-1171,B,Chicago,Normal,Female,Health & Beauty,41.16,9,18.52,388.96,2025-06-21,13:25:36.673346,Credit card,370.44,18.52,3.4
+INV-1172,C,New York,Member,Male,Health & Beauty,88.41,5,22.1,464.15,2025-06-22,13:26:48.817635,Ewallet,442.05,22.1,6.7
+INV-1173,B,Los Angeles,Member,Female,Sports,87.47,8,34.99,734.75,2025-06-23,13:28:00.961923,Ewallet,699.76,34.99,5.3
+INV-1174,C,New York,Normal,Male,Home & Garden,81.56,2,8.16,171.28,2025-06-24,13:29:13.106212,Cash,163.12,8.16,4.3
+INV-1175,A,Chicago,Member,Female,Health & Beauty,80.05,6,24.02,504.32,2025-06-25,13:30:25.250501,Credit card,480.3,24.02,9.5
+INV-1176,C,New York,Normal,Male,Sports,33.94,3,5.09,106.91,2025-06-26,13:31:37.394789,Credit card,101.82,5.09,6.7
+INV-1177,B,New York,Member,Male,Food & Beverages,12.69,5,3.17,66.62,2025-06-27,13:32:49.539078,Credit card,63.45,3.17,2.2
+INV-1178,A,New York,Member,Female,Electronics,43.28,8,17.31,363.55,2025-06-28,13:34:01.683366,Credit card,346.24,17.31,6.0
+INV-1179,A,Los Angeles,Member,Male,Home & Garden,21.48,1,1.07,22.55,2025-06-29,13:35:13.827655,Ewallet,21.48,1.07,8.0
+INV-1180,A,New York,Member,Male,Electronics,71.02,5,17.76,372.86,2025-06-30,13:36:25.971943,Credit card,355.1,17.76,7.4
+INV-1181,C,Los Angeles,Member,Female,Home & Garden,37.88,3,5.68,119.32,2025-07-01,13:37:38.116232,Ewallet,113.64,5.68,2.5
+INV-1182,B,Los Angeles,Member,Male,Electronics,97.68,4,19.54,410.26,2025-07-02,13:38:50.260521,Ewallet,390.72,19.54,9.8
+INV-1183,A,New York,Member,Female,Home & Garden,65.89,2,6.59,138.37,2025-07-03,13:40:02.404809,Ewallet,131.78,6.59,5.0
+INV-1184,A,New York,Normal,Female,Electronics,83.14,9,37.41,785.67,2025-07-04,13:41:14.549098,Credit card,748.26,37.41,2.4
+INV-1185,A,New York,Normal,Female,Electronics,17.59,3,2.64,55.41,2025-07-05,13:42:26.693386,Cash,52.77,2.64,2.6
+INV-1186,C,Chicago,Normal,Male,Electronics,86.89,2,8.69,182.47,2025-07-06,13:43:38.837675,Cash,173.78,8.69,1.9
+INV-1187,C,New York,Normal,Male,Electronics,92.66,9,41.7,875.64,2025-07-07,13:44:50.981963,Credit card,833.94,41.7,8.2
+INV-1188,B,Los Angeles,Normal,Male,Food & Beverages,51.27,7,17.94,376.83,2025-07-08,13:46:03.126252,Cash,358.89,17.94,2.1
+INV-1189,C,New York,Member,Female,Health & Beauty,62.59,6,18.78,394.32,2025-07-09,13:47:15.270541,Cash,375.54,18.78,2.1
+INV-1190,A,Chicago,Member,Male,Clothing,77.66,1,3.88,81.54,2025-07-10,13:48:27.414829,Ewallet,77.66,3.88,8.7
+INV-1191,B,New York,Normal,Female,Sports,21.61,5,5.4,113.45,2025-07-11,13:49:39.559118,Ewallet,108.05,5.4,4.1
+INV-1192,A,Chicago,Member,Female,Clothing,52.74,3,7.91,166.13,2025-07-12,13:50:51.703406,Credit card,158.22,7.91,1.3
+INV-1193,A,Chicago,Normal,Male,Clothing,42.87,1,2.14,45.01,2025-07-13,13:52:03.847695,Credit card,42.87,2.14,1.5
+INV-1194,C,New York,Normal,Female,Home & Garden,18.91,4,3.78,79.42,2025-07-14,13:53:15.991983,Cash,75.64,3.78,2.3
+INV-1195,B,Los Angeles,Member,Male,Health & Beauty,39.92,2,3.99,83.83,2025-07-15,13:54:28.136272,Ewallet,79.84,3.99,2.9
+INV-1196,C,Chicago,Member,Male,Home & Garden,11.48,2,1.15,24.11,2025-07-16,13:55:40.280561,Credit card,22.96,1.15,7.0
+INV-1197,C,New York,Member,Male,Health & Beauty,7.45,3,1.12,23.47,2025-07-17,13:56:52.424849,Credit card,22.35,1.12,2.4
+INV-1198,B,New York,Normal,Male,Health & Beauty,17.84,8,7.14,149.86,2025-07-18,13:58:04.569138,Credit card,142.72,7.14,2.1
+INV-1199,A,Los Angeles,Member,Male,Electronics,96.5,8,38.6,810.6,2025-07-19,13:59:16.713426,Credit card,772.0,38.6,7.9
+INV-1200,A,Chicago,Normal,Female,Food & Beverages,57.21,7,20.02,420.49,2025-07-20,14:00:28.857715,Credit card,400.47,20.02,7.0
+INV-1201,B,Chicago,Normal,Female,Electronics,96.75,6,29.02,609.52,2025-07-21,14:01:41.002004,Credit card,580.5,29.02,4.9
+INV-1202,A,New York,Normal,Female,Food & Beverages,46.09,9,20.74,435.55,2025-07-22,14:02:53.146292,Cash,414.81,20.74,5.9
+INV-1203,B,New York,Member,Male,Home & Garden,34.62,4,6.92,145.4,2025-07-23,14:04:05.290581,Ewallet,138.48,6.92,3.8
+INV-1204,B,Los Angeles,Member,Male,Food & Beverages,53.08,1,2.65,55.73,2025-07-24,14:05:17.434869,Ewallet,53.08,2.65,5.3
+INV-1205,C,Los Angeles,Normal,Male,Home & Garden,46.75,8,18.7,392.7,2025-07-25,14:06:29.579158,Credit card,374.0,18.7,5.6
+INV-1206,B,Chicago,Member,Female,Clothing,15.04,7,5.26,110.54,2025-07-26,14:07:41.723446,Ewallet,105.28,5.26,4.5
+INV-1207,C,Chicago,Member,Male,Clothing,65.88,7,23.06,484.22,2025-07-27,14:08:53.867735,Ewallet,461.16,23.06,9.2
+INV-1208,A,New York,Member,Female,Food & Beverages,25.52,3,3.83,80.39,2025-07-28,14:10:06.012024,Ewallet,76.56,3.83,1.1
+INV-1209,A,Chicago,Normal,Female,Food & Beverages,63.86,4,12.77,268.21,2025-07-29,14:11:18.156312,Credit card,255.44,12.77,8.0
+INV-1210,A,Los Angeles,Normal,Male,Home & Garden,66.77,9,30.05,630.98,2025-07-30,14:12:30.300601,Credit card,600.93,30.05,2.1
+INV-1211,A,Los Angeles,Member,Male,Electronics,19.44,6,5.83,122.47,2025-07-31,14:13:42.444889,Ewallet,116.64,5.83,8.2
+INV-1212,C,New York,Normal,Female,Home & Garden,10.83,5,2.71,56.86,2025-08-01,14:14:54.589178,Ewallet,54.15,2.71,6.5
+INV-1213,A,Los Angeles,Member,Male,Electronics,79.17,3,11.88,249.39,2025-08-02,14:16:06.733466,Credit card,237.51,11.88,8.6
+INV-1214,B,Los Angeles,Member,Female,Clothing,48.68,9,21.91,460.03,2025-08-03,14:17:18.877755,Cash,438.12,21.91,1.9
+INV-1215,B,Los Angeles,Member,Male,Health & Beauty,10.53,5,2.63,55.28,2025-08-04,14:18:31.022044,Ewallet,52.65,2.63,6.0
+INV-1216,B,Los Angeles,Member,Male,Food & Beverages,99.51,5,24.88,522.43,2025-08-05,14:19:43.166332,Cash,497.55,24.88,5.5
+INV-1217,C,New York,Normal,Female,Electronics,10.49,4,2.1,44.06,2025-08-06,14:20:55.310621,Ewallet,41.96,2.1,7.4
+INV-1218,A,New York,Normal,Male,Home & Garden,71.03,4,14.21,298.33,2025-08-07,14:22:07.454909,Cash,284.12,14.21,5.8
+INV-1219,A,Chicago,Normal,Female,Clothing,98.45,1,4.92,103.37,2025-08-08,14:23:19.599198,Cash,98.45,4.92,5.9
+INV-1220,A,Los Angeles,Member,Male,Electronics,27.72,7,9.7,203.74,2025-08-09,14:24:31.743486,Cash,194.04,9.7,4.9
+INV-1221,C,Chicago,Member,Female,Home & Garden,18.51,9,8.33,174.92,2025-08-10,14:25:43.887775,Credit card,166.59,8.33,3.8
+INV-1222,B,New York,Member,Female,Food & Beverages,16.53,3,2.48,52.07,2025-08-11,14:26:56.032064,Cash,49.59,2.48,5.3
+INV-1223,B,New York,Normal,Male,Food & Beverages,33.81,2,3.38,71.0,2025-08-12,14:28:08.176352,Cash,67.62,3.38,2.1
+INV-1224,A,New York,Member,Female,Sports,14.6,3,2.19,45.99,2025-08-13,14:29:20.320641,Cash,43.8,2.19,9.7
+INV-1225,B,New York,Normal,Male,Health & Beauty,70.76,1,3.54,74.3,2025-08-14,14:30:32.464929,Ewallet,70.76,3.54,7.4
+INV-1226,B,New York,Normal,Male,Sports,10.92,6,3.28,68.8,2025-08-15,14:31:44.609218,Cash,65.52,3.28,9.6
+INV-1227,C,New York,Normal,Male,Clothing,53.4,7,18.69,392.49,2025-08-16,14:32:56.753507,Ewallet,373.8,18.69,3.0
+INV-1228,C,New York,Normal,Female,Electronics,99.69,2,9.97,209.35,2025-08-17,14:34:08.897795,Cash,199.38,9.97,8.9
+INV-1229,C,Los Angeles,Normal,Female,Clothing,82.33,8,32.93,691.57,2025-08-18,14:35:21.042084,Cash,658.64,32.93,8.3
+INV-1230,C,Chicago,Normal,Male,Home & Garden,63.45,6,19.04,399.74,2025-08-19,14:36:33.186372,Credit card,380.7,19.04,7.1
+INV-1231,A,New York,Member,Male,Food & Beverages,34.09,4,6.82,143.18,2025-08-20,14:37:45.330661,Ewallet,136.36,6.82,6.6
+INV-1232,C,Los Angeles,Member,Female,Sports,64.27,5,16.07,337.42,2025-08-21,14:38:57.474949,Cash,321.35,16.07,3.8
+INV-1233,B,Los Angeles,Normal,Male,Sports,55.07,8,22.03,462.59,2025-08-22,14:40:09.619238,Ewallet,440.56,22.03,8.3
+INV-1234,A,Chicago,Normal,Male,Sports,45.48,3,6.82,143.26,2025-08-23,14:41:21.763527,Ewallet,136.44,6.82,5.5
+INV-1235,B,New York,Member,Female,Clothing,17.42,3,2.61,54.87,2025-08-24,14:42:33.907815,Credit card,52.26,2.61,1.6
+INV-1236,B,Chicago,Normal,Male,Food & Beverages,89.23,4,17.85,374.77,2025-08-25,14:43:46.052104,Credit card,356.92,17.85,3.8
+INV-1237,B,New York,Normal,Female,Electronics,47.73,1,2.39,50.12,2025-08-26,14:44:58.196392,Credit card,47.73,2.39,9.4
+INV-1238,C,Los Angeles,Member,Male,Home & Garden,23.49,9,10.57,221.98,2025-08-27,14:46:10.340681,Credit card,211.41,10.57,8.7
+INV-1239,C,Los Angeles,Normal,Female,Electronics,39.94,8,15.98,335.5,2025-08-28,14:47:22.484969,Credit card,319.52,15.98,9.8
+INV-1240,A,Los Angeles,Normal,Male,Clothing,44.34,8,17.74,372.46,2025-08-29,14:48:34.629258,Credit card,354.72,17.74,6.7
+INV-1241,A,Los Angeles,Normal,Male,Home & Garden,83.62,6,25.09,526.81,2025-08-30,14:49:46.773547,Credit card,501.72,25.09,3.2
+INV-1242,C,Chicago,Member,Female,Sports,74.69,7,26.14,548.97,2025-08-31,14:50:58.917835,Credit card,522.83,26.14,2.5
+INV-1243,B,New York,Member,Male,Health & Beauty,78.08,6,23.42,491.9,2025-09-01,14:52:11.062124,Cash,468.48,23.42,2.7
+INV-1244,A,New York,Member,Female,Clothing,6.05,9,2.72,57.17,2025-09-02,14:53:23.206412,Ewallet,54.45,2.72,1.2
+INV-1245,C,Chicago,Normal,Male,Clothing,44.53,3,6.68,140.27,2025-09-03,14:54:35.350701,Credit card,133.59,6.68,4.5
+INV-1246,C,New York,Normal,Female,Food & Beverages,50.73,3,7.61,159.8,2025-09-04,14:55:47.494989,Credit card,152.19,7.61,2.7
+INV-1247,C,Los Angeles,Member,Female,Electronics,6.82,3,1.02,21.48,2025-09-05,14:56:59.639278,Ewallet,20.46,1.02,4.7
+INV-1248,B,New York,Normal,Female,Clothing,29.68,3,4.45,93.49,2025-09-06,14:58:11.783567,Cash,89.04,4.45,9.4
+INV-1249,C,Los Angeles,Normal,Female,Clothing,77.23,9,34.75,729.82,2025-09-07,14:59:23.927855,Ewallet,695.07,34.75,4.9
+INV-1250,C,Chicago,Normal,Male,Sports,18.03,4,3.61,75.73,2025-09-08,15:00:36.072144,Ewallet,72.12,3.61,8.9
+INV-1251,C,New York,Normal,Male,Sports,55.85,7,19.55,410.5,2025-09-09,15:01:48.216432,Credit card,390.95,19.55,6.4
+INV-1252,C,Chicago,Normal,Female,Home & Garden,25.44,9,11.45,240.41,2025-09-10,15:03:00.360721,Ewallet,228.96,11.45,3.2
+INV-1253,A,New York,Member,Female,Health & Beauty,6.15,7,2.15,45.2,2025-09-11,15:04:12.505010,Ewallet,43.05,2.15,4.2
+INV-1254,A,Los Angeles,Normal,Female,Food & Beverages,27.91,9,12.56,263.75,2025-09-12,15:05:24.649298,Credit card,251.19,12.56,1.8
+INV-1255,C,Chicago,Member,Male,Health & Beauty,97.71,3,14.66,307.79,2025-09-13,15:06:36.793587,Credit card,293.13,14.66,4.0
+INV-1256,B,New York,Normal,Male,Home & Garden,81.15,4,16.23,340.83,2025-09-14,15:07:48.937875,Credit card,324.6,16.23,7.1
+INV-1257,A,Los Angeles,Member,Male,Sports,96.16,8,38.46,807.74,2025-09-15,15:09:01.082164,Credit card,769.28,38.46,1.6
+INV-1258,C,Chicago,Normal,Male,Electronics,51.35,6,15.4,323.5,2025-09-16,15:10:13.226452,Ewallet,308.1,15.4,2.8
+INV-1259,A,Chicago,Member,Female,Sports,15.42,5,3.86,80.96,2025-09-17,15:11:25.370741,Ewallet,77.1,3.86,4.4
+INV-1260,A,New York,Normal,Female,Food & Beverages,57.06,4,11.41,239.65,2025-09-18,15:12:37.515030,Cash,228.24,11.41,9.8
+INV-1261,B,New York,Member,Female,Sports,48.17,8,19.27,404.63,2025-09-19,15:13:49.659318,Cash,385.36,19.27,8.1
+INV-1262,C,New York,Normal,Male,Food & Beverages,85.21,1,4.26,89.47,2025-09-20,15:15:01.803607,Ewallet,85.21,4.26,7.6
+INV-1263,C,Los Angeles,Member,Male,Food & Beverages,14.32,9,6.44,135.32,2025-09-21,15:16:13.947895,Cash,128.88,6.44,2.0
+INV-1264,B,New York,Normal,Male,Food & Beverages,51.38,1,2.57,53.95,2025-09-22,15:17:26.092184,Ewallet,51.38,2.57,8.0
+INV-1265,B,Chicago,Member,Female,Home & Garden,19.25,8,7.7,161.7,2025-09-23,15:18:38.236472,Cash,154.0,7.7,8.1
+INV-1266,C,Chicago,Member,Female,Food & Beverages,35.84,4,7.17,150.53,2025-09-24,15:19:50.380761,Credit card,143.36,7.17,6.4
+INV-1267,C,New York,Normal,Male,Food & Beverages,75.05,9,33.77,709.22,2025-09-25,15:21:02.525050,Cash,675.45,33.77,9.9
+INV-1268,B,New York,Normal,Female,Electronics,50.22,5,12.56,263.66,2025-09-26,15:22:14.669338,Credit card,251.1,12.56,3.9
+INV-1269,A,Chicago,Member,Male,Health & Beauty,40.71,3,6.11,128.24,2025-09-27,15:23:26.813627,Credit card,122.13,6.11,9.5
+INV-1270,A,Los Angeles,Normal,Male,Clothing,42.48,9,19.12,401.44,2025-09-28,15:24:38.957915,Credit card,382.32,19.12,9.2
+INV-1271,B,New York,Member,Female,Health & Beauty,48.65,9,21.89,459.74,2025-09-29,15:25:51.102204,Credit card,437.85,21.89,1.1
+INV-1272,A,New York,Member,Male,Food & Beverages,79.58,4,15.92,334.24,2025-09-30,15:27:03.246492,Cash,318.32,15.92,5.1
+INV-1273,B,Chicago,Member,Female,Electronics,89.75,4,17.95,376.95,2025-10-01,15:28:15.390781,Ewallet,359.0,17.95,9.8
+INV-1274,A,New York,Normal,Male,Sports,95.76,8,38.3,804.38,2025-10-02,15:29:27.535070,Credit card,766.08,38.3,1.9
+INV-1275,A,Los Angeles,Member,Female,Electronics,79.76,2,7.98,167.5,2025-10-03,15:30:39.679358,Cash,159.52,7.98,5.9
+INV-1276,C,Chicago,Member,Female,Food & Beverages,34.96,9,15.73,330.37,2025-10-04,15:31:51.823647,Credit card,314.64,15.73,9.8
+INV-1277,C,New York,Normal,Female,Electronics,70.37,6,21.11,443.33,2025-10-05,15:33:03.967935,Cash,422.22,21.11,6.0
+INV-1278,A,Chicago,Normal,Male,Electronics,46.57,9,20.96,440.09,2025-10-06,15:34:16.112224,Cash,419.13,20.96,2.7
+INV-1279,A,New York,Normal,Male,Food & Beverages,29.19,8,11.68,245.2,2025-10-07,15:35:28.256513,Cash,233.52,11.68,6.2
+INV-1280,C,New York,Normal,Female,Home & Garden,84.88,7,29.71,623.87,2025-10-08,15:36:40.400801,Ewallet,594.16,29.71,2.8
+INV-1281,C,New York,Member,Female,Electronics,8.65,1,0.43,9.08,2025-10-09,15:37:52.545090,Cash,8.65,0.43,5.7
+INV-1282,C,Los Angeles,Member,Male,Clothing,90.67,3,13.6,285.61,2025-10-10,15:39:04.689378,Cash,272.01,13.6,1.7
+INV-1283,B,Los Angeles,Member,Male,Clothing,48.84,2,4.88,102.56,2025-10-11,15:40:16.833667,Ewallet,97.68,4.88,6.4
+INV-1284,A,Chicago,Member,Male,Electronics,65.53,5,16.38,344.03,2025-10-12,15:41:28.977955,Ewallet,327.65,16.38,5.7
+INV-1285,C,New York,Normal,Female,Home & Garden,67.64,5,16.91,355.11,2025-10-13,15:42:41.122244,Cash,338.2,16.91,7.7
+INV-1286,A,New York,Member,Male,Sports,90.04,5,22.51,472.71,2025-10-14,15:43:53.266533,Ewallet,450.2,22.51,6.7
+INV-1287,B,Los Angeles,Member,Male,Food & Beverages,65.48,4,13.1,275.02,2025-10-15,15:45:05.410821,Credit card,261.92,13.1,5.9
+INV-1288,B,New York,Normal,Female,Clothing,63.32,5,15.83,332.43,2025-10-16,15:46:17.555110,Credit card,316.6,15.83,7.2
+INV-1289,C,Los Angeles,Member,Male,Sports,11.33,3,1.7,35.69,2025-10-17,15:47:29.699398,Ewallet,33.99,1.7,2.3
+INV-1290,B,New York,Member,Male,Electronics,54.25,1,2.71,56.96,2025-10-18,15:48:41.843687,Ewallet,54.25,2.71,6.4
+INV-1291,A,Chicago,Member,Male,Sports,19.27,5,4.82,101.17,2025-10-19,15:49:53.987975,Cash,96.35,4.82,2.5
+INV-1292,C,New York,Member,Female,Health & Beauty,75.06,9,33.78,709.32,2025-10-20,15:51:06.132264,Ewallet,675.54,33.78,9.3
+INV-1293,A,New York,Member,Female,Clothing,53.66,9,24.15,507.09,2025-10-21,15:52:18.276553,Cash,482.94,24.15,1.6
+INV-1294,A,Los Angeles,Member,Female,Electronics,69.62,4,13.92,292.4,2025-10-22,15:53:30.420841,Credit card,278.48,13.92,4.9
+INV-1295,B,New York,Normal,Female,Food & Beverages,8.96,3,1.34,28.22,2025-10-23,15:54:42.565130,Ewallet,26.88,1.34,7.3
+INV-1296,B,New York,Normal,Female,Home & Garden,13.06,1,0.65,13.71,2025-10-24,15:55:54.709418,Cash,13.06,0.65,5.1
+INV-1297,B,Los Angeles,Member,Female,Electronics,73.05,2,7.3,153.4,2025-10-25,15:57:06.853707,Cash,146.1,7.3,1.8
+INV-1298,B,Chicago,Member,Female,Food & Beverages,11.85,8,4.74,99.54,2025-10-26,15:58:18.997995,Credit card,94.8,4.74,6.0
+INV-1299,B,Chicago,Normal,Male,Home & Garden,11.77,1,0.59,12.36,2025-10-27,15:59:31.142284,Ewallet,11.77,0.59,6.8
+INV-1300,C,Los Angeles,Member,Male,Home & Garden,6.15,8,2.46,51.66,2025-10-28,16:00:43.286573,Credit card,49.2,2.46,7.3
+INV-1301,A,Los Angeles,Member,Female,Electronics,95.87,7,33.55,704.64,2025-10-29,16:01:55.430861,Cash,671.09,33.55,4.4
+INV-1302,A,Los Angeles,Member,Male,Sports,75.06,8,30.02,630.5,2025-10-30,16:03:07.575150,Cash,600.48,30.02,6.1
+INV-1303,A,Los Angeles,Normal,Male,Sports,38.56,6,11.57,242.93,2025-10-31,16:04:19.719438,Ewallet,231.36,11.57,5.1
+INV-1304,A,Los Angeles,Member,Female,Home & Garden,33.17,9,14.93,313.46,2025-11-01,16:05:31.863727,Cash,298.53,14.93,7.0
+INV-1305,B,Chicago,Normal,Male,Sports,38.22,3,5.73,120.39,2025-11-02,16:06:44.008016,Ewallet,114.66,5.73,6.3
+INV-1306,A,Chicago,Member,Male,Health & Beauty,78.59,4,15.72,330.08,2025-11-03,16:07:56.152304,Credit card,314.36,15.72,5.7
+INV-1307,C,Los Angeles,Normal,Male,Home & Garden,67.83,6,20.35,427.33,2025-11-04,16:09:08.296593,Ewallet,406.98,20.35,3.2
+INV-1308,C,New York,Normal,Male,Home & Garden,22.59,8,9.04,189.76,2025-11-05,16:10:20.440881,Ewallet,180.72,9.04,1.0
+INV-1309,A,Los Angeles,Member,Male,Food & Beverages,21.54,5,5.38,113.08,2025-11-06,16:11:32.585170,Cash,107.7,5.38,2.6
+INV-1310,A,New York,Normal,Female,Sports,14.35,3,2.15,45.2,2025-11-07,16:12:44.729458,Cash,43.05,2.15,2.1
+INV-1311,C,Los Angeles,Member,Female,Home & Garden,67.73,6,20.32,426.7,2025-11-08,16:13:56.873747,Ewallet,406.38,20.32,5.0
+INV-1312,C,Los Angeles,Normal,Female,Health & Beauty,77.62,4,15.52,326.0,2025-11-09,16:15:09.018036,Cash,310.48,15.52,6.5
+INV-1313,B,Chicago,Member,Male,Food & Beverages,30.18,9,13.58,285.2,2025-11-10,16:16:21.162324,Cash,271.62,13.58,2.9
+INV-1314,C,New York,Member,Female,Electronics,6.99,3,1.05,22.02,2025-11-11,16:17:33.306613,Cash,20.97,1.05,9.5
+INV-1315,B,New York,Normal,Male,Home & Garden,12.81,4,2.56,53.8,2025-11-12,16:18:45.450901,Ewallet,51.24,2.56,1.1
+INV-1316,B,Chicago,Member,Male,Health & Beauty,96.95,7,33.93,712.58,2025-11-13,16:19:57.595190,Cash,678.65,33.93,8.0
+INV-1317,B,Chicago,Member,Male,Clothing,33.07,7,11.57,243.06,2025-11-14,16:21:09.739478,Ewallet,231.49,11.57,6.6
+INV-1318,B,Chicago,Normal,Male,Health & Beauty,78.08,4,15.62,327.94,2025-11-15,16:22:21.883767,Cash,312.32,15.62,4.4
+INV-1319,B,Chicago,Member,Female,Health & Beauty,64.34,6,19.3,405.34,2025-11-16,16:23:34.028056,Credit card,386.04,19.3,1.5
+INV-1320,A,New York,Member,Female,Food & Beverages,41.28,3,6.19,130.03,2025-11-17,16:24:46.172344,Cash,123.84,6.19,6.6
+INV-1321,C,New York,Normal,Male,Electronics,24.54,6,7.36,154.6,2025-11-18,16:25:58.316633,Cash,147.24,7.36,4.5
+INV-1322,B,Los Angeles,Normal,Female,Clothing,16.53,2,1.65,34.71,2025-11-19,16:27:10.460921,Ewallet,33.06,1.65,9.4
+INV-1323,C,Los Angeles,Member,Male,Sports,63.43,8,25.37,532.81,2025-11-20,16:28:22.605210,Ewallet,507.44,25.37,5.9
+INV-1324,C,Chicago,Member,Female,Sports,78.59,2,7.86,165.04,2025-11-21,16:29:34.749498,Cash,157.18,7.86,9.5
+INV-1325,B,Chicago,Normal,Female,Health & Beauty,66.17,7,23.16,486.35,2025-11-22,16:30:46.893787,Credit card,463.19,23.16,3.0
+INV-1326,A,Chicago,Normal,Male,Food & Beverages,55.38,9,24.92,523.34,2025-11-23,16:31:59.038076,Cash,498.42,24.92,7.5
+INV-1327,B,Los Angeles,Member,Female,Food & Beverages,8.99,1,0.45,9.44,2025-11-24,16:33:11.182364,Cash,8.99,0.45,6.6
+INV-1328,A,Los Angeles,Normal,Male,Sports,97.01,8,38.8,814.88,2025-11-25,16:34:23.326653,Credit card,776.08,38.8,7.7
+INV-1329,C,Los Angeles,Member,Female,Clothing,80.88,7,28.31,594.47,2025-11-26,16:35:35.470941,Ewallet,566.16,28.31,2.9
+INV-1330,A,Los Angeles,Member,Male,Electronics,32.82,6,9.85,206.77,2025-11-27,16:36:47.615230,Cash,196.92,9.85,7.0
+INV-1331,A,Los Angeles,Member,Male,Clothing,98.1,6,29.43,618.03,2025-11-28,16:37:59.759519,Ewallet,588.6,29.43,5.5
+INV-1332,A,Los Angeles,Member,Female,Home & Garden,62.18,6,18.65,391.73,2025-11-29,16:39:11.903807,Ewallet,373.08,18.65,7.7
+INV-1333,C,Los Angeles,Member,Female,Home & Garden,60.33,9,27.15,570.12,2025-11-30,16:40:24.048096,Credit card,542.97,27.15,3.9
+INV-1334,C,Chicago,Normal,Male,Electronics,76.07,2,7.61,159.75,2025-12-01,16:41:36.192384,Credit card,152.14,7.61,9.0
+INV-1335,A,Chicago,Normal,Female,Sports,82.12,1,4.11,86.23,2025-12-02,16:42:48.336673,Ewallet,82.12,4.11,1.8
+INV-1336,A,Chicago,Normal,Female,Electronics,67.37,6,20.21,424.43,2025-12-03,16:44:00.480961,Cash,404.22,20.21,8.3
+INV-1337,B,Chicago,Normal,Male,Food & Beverages,17.17,8,6.87,144.23,2025-12-04,16:45:12.625250,Ewallet,137.36,6.87,8.8
+INV-1338,A,Los Angeles,Member,Male,Home & Garden,37.14,3,5.57,116.99,2025-12-05,16:46:24.769539,Cash,111.42,5.57,8.4
+INV-1339,B,New York,Member,Female,Health & Beauty,93.17,1,4.66,97.83,2025-12-06,16:47:36.913827,Cash,93.17,4.66,5.6
+INV-1340,A,Los Angeles,Member,Male,Health & Beauty,26.34,9,11.85,248.91,2025-12-07,16:48:49.058116,Credit card,237.06,11.85,4.9
+INV-1341,B,New York,Member,Male,Sports,40.36,1,2.02,42.38,2025-12-08,16:50:01.202404,Cash,40.36,2.02,10.0
+INV-1342,C,Chicago,Normal,Male,Food & Beverages,46.05,3,6.91,145.06,2025-12-09,16:51:13.346693,Cash,138.15,6.91,3.1
+INV-1343,A,Los Angeles,Member,Female,Clothing,46.74,8,18.7,392.62,2025-12-10,16:52:25.490981,Ewallet,373.92,18.7,5.9
+INV-1344,A,Chicago,Member,Female,Food & Beverages,63.23,3,9.48,199.17,2025-12-11,16:53:37.635270,Credit card,189.69,9.48,7.0
+INV-1345,A,Los Angeles,Normal,Male,Health & Beauty,94.59,4,18.92,397.28,2025-12-12,16:54:49.779559,Cash,378.36,18.92,7.3
+INV-1346,A,Chicago,Normal,Female,Health & Beauty,27.87,8,11.15,234.11,2025-12-13,16:56:01.923847,Cash,222.96,11.15,2.8
+INV-1347,B,New York,Normal,Male,Home & Garden,16.54,1,0.83,17.37,2025-12-14,16:57:14.068136,Credit card,16.54,0.83,6.9
+INV-1348,A,New York,Normal,Female,Food & Beverages,23.76,6,7.13,149.69,2025-12-15,16:58:26.212424,Ewallet,142.56,7.13,8.4
+INV-1349,C,New York,Member,Male,Food & Beverages,89.26,1,4.46,93.72,2025-12-16,16:59:38.356713,Credit card,89.26,4.46,1.5
+INV-1350,C,Los Angeles,Member,Male,Health & Beauty,66.35,1,3.32,69.67,2025-12-17,17:00:50.501002,Credit card,66.35,3.32,9.2
+INV-1351,A,New York,Normal,Female,Clothing,32.16,8,12.86,270.14,2025-12-18,17:02:02.645290,Cash,257.28,12.86,1.3
+INV-1352,C,Los Angeles,Member,Male,Sports,82.51,4,16.5,346.54,2025-12-19,17:03:14.789579,Cash,330.04,16.5,4.2
+INV-1353,A,New York,Member,Female,Sports,86.83,1,4.34,91.17,2025-12-20,17:04:26.933867,Ewallet,86.83,4.34,1.1
+INV-1354,A,New York,Member,Female,Food & Beverages,85.42,7,29.9,627.84,2025-12-21,17:05:39.078156,Cash,597.94,29.9,1.7
+INV-1355,C,Los Angeles,Normal,Male,Sports,92.3,5,23.08,484.58,2025-12-22,17:06:51.222444,Cash,461.5,23.08,9.2
+INV-1356,A,Los Angeles,Member,Male,Health & Beauty,28.96,5,7.24,152.04,2025-12-23,17:08:03.366733,Credit card,144.8,7.24,4.2
+INV-1357,C,New York,Normal,Female,Health & Beauty,76.73,1,3.84,80.57,2025-12-24,17:09:15.511022,Cash,76.73,3.84,4.8
+INV-1358,B,Los Angeles,Member,Male,Food & Beverages,48.75,6,14.62,307.12,2025-12-25,17:10:27.655310,Ewallet,292.5,14.62,2.9
+INV-1359,A,New York,Member,Male,Food & Beverages,84.99,9,38.25,803.16,2025-12-26,17:11:39.799599,Credit card,764.91,38.25,6.4
+INV-1360,B,Los Angeles,Member,Male,Home & Garden,74.21,9,33.39,701.28,2025-12-27,17:12:51.943887,Ewallet,667.89,33.39,6.4
+INV-1361,C,Chicago,Normal,Male,Food & Beverages,78.76,8,31.5,661.58,2025-12-28,17:14:04.088176,Credit card,630.08,31.5,4.3
+INV-1362,B,Chicago,Member,Male,Clothing,67.34,5,16.84,353.54,2025-12-29,17:15:16.232464,Cash,336.7,16.84,4.0
+INV-1363,B,Chicago,Normal,Female,Sports,21.86,1,1.09,22.95,2025-12-30,17:16:28.376753,Credit card,21.86,1.09,9.0
+INV-1364,C,Chicago,Normal,Female,Food & Beverages,56.78,9,25.55,536.57,2025-12-31,17:17:40.521042,Credit card,511.02,25.55,4.4
+INV-1365,B,Chicago,Normal,Male,Electronics,98.54,1,4.93,103.47,2026-01-01,17:18:52.665330,Cash,98.54,4.93,5.4
+INV-1366,B,New York,Member,Male,Home & Garden,94.05,8,37.62,790.02,2026-01-02,17:20:04.809619,Cash,752.4,37.62,3.5
+INV-1367,C,Chicago,Member,Male,Electronics,9.1,5,2.28,47.78,2026-01-03,17:21:16.953907,Ewallet,45.5,2.28,8.1
+INV-1368,B,Chicago,Member,Female,Health & Beauty,20.66,3,3.1,65.08,2026-01-04,17:22:29.098196,Ewallet,61.98,3.1,4.6
+INV-1369,C,Chicago,Member,Male,Sports,17.51,7,6.13,128.7,2026-01-05,17:23:41.242484,Cash,122.57,6.13,5.6
+INV-1370,B,Chicago,Normal,Female,Food & Beverages,73.97,7,25.89,543.68,2026-01-06,17:24:53.386773,Cash,517.79,25.89,3.3
+INV-1371,C,Los Angeles,Normal,Female,Electronics,82.69,9,37.21,781.42,2026-01-07,17:26:05.531062,Cash,744.21,37.21,9.9
+INV-1372,C,New York,Normal,Female,Sports,25.28,7,8.85,185.81,2026-01-08,17:27:17.675350,Credit card,176.96,8.85,3.6
+INV-1373,B,Chicago,Member,Male,Health & Beauty,53.06,3,7.96,167.14,2026-01-09,17:28:29.819639,Credit card,159.18,7.96,7.9
+INV-1374,B,Chicago,Normal,Female,Clothing,84.87,1,4.24,89.11,2026-01-10,17:29:41.963927,Credit card,84.87,4.24,4.8
+INV-1375,B,Chicago,Member,Male,Home & Garden,74.62,8,29.85,626.81,2026-01-11,17:30:54.108216,Cash,596.96,29.85,2.9
+INV-1376,A,New York,Normal,Female,Sports,56.51,3,8.48,178.01,2026-01-12,17:32:06.252505,Ewallet,169.53,8.48,8.2
+INV-1377,A,Los Angeles,Member,Male,Sports,61.08,8,24.43,513.07,2026-01-13,17:33:18.396793,Cash,488.64,24.43,4.0
+INV-1378,A,New York,Member,Female,Clothing,53.29,8,21.32,447.64,2026-01-14,17:34:30.541082,Credit card,426.32,21.32,8.8
+INV-1379,C,Los Angeles,Normal,Male,Sports,33.27,5,8.32,174.67,2026-01-15,17:35:42.685370,Credit card,166.35,8.32,9.2
+INV-1380,B,Chicago,Normal,Female,Health & Beauty,58.68,1,2.93,61.61,2026-01-16,17:36:54.829659,Cash,58.68,2.93,8.7
+INV-1381,C,Chicago,Normal,Male,Health & Beauty,70.44,7,24.65,517.73,2026-01-17,17:38:06.973947,Cash,493.08,24.65,1.3
+INV-1382,A,New York,Normal,Male,Clothing,87.97,5,21.99,461.84,2026-01-18,17:39:19.118236,Credit card,439.85,21.99,8.1
+INV-1383,B,New York,Member,Male,Home & Garden,65.45,8,26.18,549.78,2026-01-19,17:40:31.262525,Credit card,523.6,26.18,4.7
+INV-1384,C,Los Angeles,Normal,Male,Food & Beverages,77.31,9,34.79,730.58,2026-01-20,17:41:43.406813,Credit card,695.79,34.79,8.9
+INV-1385,B,Los Angeles,Normal,Female,Electronics,20.21,7,7.07,148.54,2026-01-21,17:42:55.551102,Cash,141.47,7.07,6.7
+INV-1386,C,New York,Normal,Female,Food & Beverages,48.85,7,17.1,359.05,2026-01-22,17:44:07.695390,Credit card,341.95,17.1,8.5
+INV-1387,B,Los Angeles,Member,Male,Sports,5.89,1,0.29,6.18,2026-01-23,17:45:19.839679,Credit card,5.89,0.29,5.5
+INV-1388,A,New York,Member,Female,Electronics,28.43,4,5.69,119.41,2026-01-24,17:46:31.983967,Ewallet,113.72,5.69,5.8
+INV-1389,A,Los Angeles,Normal,Male,Clothing,74.01,2,7.4,155.42,2026-01-25,17:47:44.128256,Cash,148.02,7.4,2.3
+INV-1390,B,New York,Member,Male,Clothing,99.22,2,9.92,208.36,2026-01-26,17:48:56.272545,Ewallet,198.44,9.92,8.1
+INV-1391,C,New York,Normal,Female,Home & Garden,14.42,2,1.44,30.28,2026-01-27,17:50:08.416833,Ewallet,28.84,1.44,4.8
+INV-1392,A,New York,Member,Male,Electronics,43.14,4,8.63,181.19,2026-01-28,17:51:20.561122,Credit card,172.56,8.63,5.5
+INV-1393,A,Los Angeles,Member,Male,Health & Beauty,81.01,1,4.05,85.06,2026-01-29,17:52:32.705410,Cash,81.01,4.05,8.1
+INV-1394,A,Los Angeles,Member,Female,Electronics,24.38,4,4.88,102.4,2026-01-30,17:53:44.849699,Credit card,97.52,4.88,6.4
+INV-1395,B,Los Angeles,Member,Male,Sports,57.73,2,5.77,121.23,2026-01-31,17:54:56.993987,Cash,115.46,5.77,2.8
+INV-1396,B,New York,Normal,Male,Health & Beauty,74.64,5,18.66,391.86,2026-02-01,17:56:09.138276,Ewallet,373.2,18.66,6.3
+INV-1397,C,Los Angeles,Normal,Male,Clothing,63.52,3,9.53,200.09,2026-02-02,17:57:21.282565,Cash,190.56,9.53,4.7
+INV-1398,C,Los Angeles,Normal,Male,Electronics,22.86,8,9.14,192.02,2026-02-03,17:58:33.426853,Credit card,182.88,9.14,5.2
+INV-1399,C,New York,Member,Female,Food & Beverages,38.76,4,7.75,162.79,2026-02-04,17:59:45.571142,Credit card,155.04,7.75,1.3
+INV-1400,B,Chicago,Normal,Female,Home & Garden,79.46,1,3.97,83.43,2026-02-05,18:00:57.715430,Credit card,79.46,3.97,2.9
+INV-1401,B,New York,Normal,Female,Food & Beverages,57.65,1,2.88,60.53,2026-02-06,18:02:09.859719,Cash,57.65,2.88,3.5
+INV-1402,C,Los Angeles,Normal,Male,Home & Garden,5.5,3,0.82,17.32,2026-02-07,18:03:22.004008,Ewallet,16.5,0.82,7.4
+INV-1403,C,New York,Member,Male,Sports,77.29,9,34.78,730.39,2026-02-08,18:04:34.148296,Ewallet,695.61,34.78,1.1
+INV-1404,B,Chicago,Member,Female,Food & Beverages,8.35,7,2.92,61.37,2026-02-09,18:05:46.292585,Cash,58.45,2.92,4.7
+INV-1405,C,New York,Member,Male,Electronics,75.84,2,7.58,159.26,2026-02-10,18:06:58.436873,Credit card,151.68,7.58,9.3
+INV-1406,A,Los Angeles,Normal,Male,Electronics,24.24,9,10.91,229.07,2026-02-11,18:08:10.581162,Ewallet,218.16,10.91,2.0
+INV-1407,B,Chicago,Normal,Male,Food & Beverages,96.02,2,9.6,201.64,2026-02-12,18:09:22.725450,Credit card,192.04,9.6,5.6
+INV-1408,C,Los Angeles,Normal,Male,Electronics,39.95,3,5.99,125.84,2026-02-13,18:10:34.869739,Cash,119.85,5.99,8.1
+INV-1409,B,Chicago,Member,Female,Sports,36.06,2,3.61,75.73,2026-02-14,18:11:47.014028,Credit card,72.12,3.61,9.5
+INV-1410,A,Chicago,Member,Female,Health & Beauty,19.14,3,2.87,60.29,2026-02-15,18:12:59.158316,Ewallet,57.42,2.87,7.7
+INV-1411,B,New York,Normal,Female,Sports,34.03,6,10.21,214.39,2026-02-16,18:14:11.302605,Ewallet,204.18,10.21,7.5
+INV-1412,B,New York,Member,Male,Home & Garden,88.28,9,39.73,834.25,2026-02-17,18:15:23.446893,Credit card,794.52,39.73,8.4
+INV-1413,B,Los Angeles,Member,Female,Sports,99.65,9,44.84,941.69,2026-02-18,18:16:35.591182,Cash,896.85,44.84,5.0
+INV-1414,B,New York,Member,Female,Home & Garden,39.99,7,14.0,293.93,2026-02-19,18:17:47.735470,Credit card,279.93,14.0,8.3
+INV-1415,A,New York,Member,Male,Electronics,47.62,3,7.14,150.0,2026-02-20,18:18:59.879759,Cash,142.86,7.14,1.1
+INV-1416,B,Chicago,Normal,Male,Health & Beauty,73.6,4,14.72,309.12,2026-02-21,18:20:12.024048,Credit card,294.4,14.72,9.3
+INV-1417,B,New York,Member,Female,Electronics,89.19,6,26.76,561.9,2026-02-22,18:21:24.168336,Ewallet,535.14,26.76,5.0
+INV-1418,C,Chicago,Member,Female,Clothing,61.34,5,15.34,322.04,2026-02-23,18:22:36.312625,Cash,306.7,15.34,6.0
+INV-1419,B,Chicago,Member,Female,Electronics,42.19,2,4.22,88.6,2026-02-24,18:23:48.456913,Cash,84.38,4.22,3.3
+INV-1420,C,Chicago,Member,Female,Home & Garden,44.2,6,13.26,278.46,2026-02-25,18:25:00.601202,Cash,265.2,13.26,7.7
+INV-1421,A,Los Angeles,Normal,Male,Electronics,71.08,3,10.66,223.9,2026-02-26,18:26:12.745490,Ewallet,213.24,10.66,1.7
+INV-1422,A,Los Angeles,Normal,Female,Electronics,5.31,8,2.12,44.6,2026-02-27,18:27:24.889779,Credit card,42.48,2.12,8.9
+INV-1423,A,Los Angeles,Member,Female,Health & Beauty,63.86,2,6.39,134.11,2026-02-28,18:28:37.034068,Ewallet,127.72,6.39,8.5
+INV-1424,A,Chicago,Member,Male,Electronics,38.77,1,1.94,40.71,2026-03-01,18:29:49.178356,Cash,38.77,1.94,2.9
+INV-1425,C,Los Angeles,Member,Female,Health & Beauty,80.45,9,36.2,760.25,2026-03-02,18:31:01.322645,Credit card,724.05,36.2,8.3
+INV-1426,B,Los Angeles,Member,Male,Food & Beverages,13.83,3,2.07,43.56,2026-03-03,18:32:13.466933,Ewallet,41.49,2.07,8.1
+INV-1427,A,New York,Member,Male,Clothing,60.88,1,3.04,63.92,2026-03-04,18:33:25.611222,Cash,60.88,3.04,6.7
+INV-1428,B,Los Angeles,Member,Male,Health & Beauty,50.69,7,17.74,372.57,2026-03-05,18:34:37.755511,Cash,354.83,17.74,4.4
+INV-1429,C,Los Angeles,Normal,Female,Home & Garden,66.02,5,16.5,346.6,2026-03-06,18:35:49.899799,Ewallet,330.1,16.5,3.4
+INV-1430,C,Chicago,Member,Female,Food & Beverages,11.16,5,2.79,58.59,2026-03-07,18:37:02.044088,Ewallet,55.8,2.79,3.1
+INV-1431,C,Chicago,Normal,Male,Health & Beauty,60.1,1,3.01,63.11,2026-03-08,18:38:14.188376,Ewallet,60.1,3.01,3.9
+INV-1432,A,Chicago,Normal,Female,Health & Beauty,58.34,9,26.25,551.31,2026-03-09,18:39:26.332665,Cash,525.06,26.25,9.1
+INV-1433,B,Chicago,Member,Female,Clothing,58.26,7,20.39,428.21,2026-03-10,18:40:38.476953,Ewallet,407.82,20.39,1.7
+INV-1434,B,Chicago,Normal,Male,Home & Garden,62.33,8,24.93,523.57,2026-03-11,18:41:50.621242,Cash,498.64,24.93,8.5
+INV-1435,B,Chicago,Normal,Male,Sports,69.26,9,31.17,654.51,2026-03-12,18:43:02.765531,Ewallet,623.34,31.17,4.1
+INV-1436,C,Los Angeles,Normal,Female,Sports,81.47,6,24.44,513.26,2026-03-13,18:44:14.909819,Cash,488.82,24.44,5.7
+INV-1437,A,Chicago,Normal,Male,Health & Beauty,30.63,5,7.66,160.81,2026-03-14,18:45:27.054108,Cash,153.15,7.66,8.2
+INV-1438,C,Chicago,Normal,Female,Electronics,83.38,6,25.01,525.29,2026-03-15,18:46:39.198396,Credit card,500.28,25.01,9.0
+INV-1439,C,New York,Normal,Female,Home & Garden,52.33,2,5.23,109.89,2026-03-16,18:47:51.342685,Ewallet,104.66,5.23,4.1
+INV-1440,B,Los Angeles,Member,Female,Food & Beverages,12.32,4,2.46,51.74,2026-03-17,18:49:03.486973,Ewallet,49.28,2.46,5.2
+INV-1441,C,Los Angeles,Normal,Female,Electronics,10.56,3,1.58,33.26,2026-03-18,18:50:15.631262,Cash,31.68,1.58,4.7
+INV-1442,B,Los Angeles,Normal,Male,Electronics,36.75,7,12.86,270.11,2026-03-19,18:51:27.775551,Cash,257.25,12.86,1.1
+INV-1443,A,Chicago,Normal,Male,Home & Garden,79.57,9,35.81,751.94,2026-03-20,18:52:39.919839,Cash,716.13,35.81,3.7
+INV-1444,B,Chicago,Member,Male,Health & Beauty,72.23,5,18.06,379.21,2026-03-21,18:53:52.064128,Credit card,361.15,18.06,5.1
+INV-1445,A,Chicago,Normal,Male,Health & Beauty,79.92,6,23.98,503.5,2026-03-22,18:55:04.208416,Credit card,479.52,23.98,4.7
+INV-1446,B,New York,Member,Female,Health & Beauty,54.14,2,5.41,113.69,2026-03-23,18:56:16.352705,Cash,108.28,5.41,7.5
+INV-1447,C,Chicago,Normal,Female,Health & Beauty,46.82,3,7.02,147.48,2026-03-24,18:57:28.496993,Ewallet,140.46,7.02,4.5
+INV-1448,C,New York,Member,Male,Sports,19.01,3,2.85,59.88,2026-03-25,18:58:40.641282,Ewallet,57.03,2.85,5.4
+INV-1449,A,Los Angeles,Member,Female,Health & Beauty,36.18,9,16.28,341.9,2026-03-26,18:59:52.785571,Credit card,325.62,16.28,4.9
+INV-1450,A,Chicago,Normal,Female,Sports,46.23,7,16.18,339.79,2026-03-27,19:01:04.929859,Credit card,323.61,16.18,7.7
+INV-1451,A,New York,Normal,Female,Sports,13.42,8,5.37,112.73,2026-03-28,19:02:17.074148,Cash,107.36,5.37,8.8
+INV-1452,B,New York,Member,Male,Health & Beauty,25.96,9,11.68,245.32,2026-03-29,19:03:29.218436,Ewallet,233.64,11.68,5.8
+INV-1453,B,Chicago,Normal,Male,Clothing,61.83,6,18.55,389.53,2026-03-30,19:04:41.362725,Cash,370.98,18.55,8.1
+INV-1454,A,Los Angeles,Member,Male,Food & Beverages,74.89,4,14.98,314.54,2026-03-31,19:05:53.507014,Credit card,299.56,14.98,3.7
+INV-1455,C,Los Angeles,Member,Female,Electronics,99.84,1,4.99,104.83,2026-04-01,19:07:05.651302,Ewallet,99.84,4.99,5.9
+INV-1456,B,Los Angeles,Member,Male,Sports,93.65,8,37.46,786.66,2026-04-02,19:08:17.795591,Ewallet,749.2,37.46,4.1
+INV-1457,B,New York,Member,Male,Home & Garden,66.04,7,23.11,485.39,2026-04-03,19:09:29.939879,Credit card,462.28,23.11,4.7
+INV-1458,B,New York,Member,Male,Home & Garden,45.02,2,4.5,94.54,2026-04-04,19:10:42.084168,Cash,90.04,4.5,7.6
+INV-1459,A,New York,Normal,Male,Food & Beverages,65.44,8,26.18,549.7,2026-04-05,19:11:54.228456,Cash,523.52,26.18,8.9
+INV-1460,A,New York,Member,Male,Home & Garden,79.64,5,19.91,418.11,2026-04-06,19:13:06.372745,Ewallet,398.2,19.91,2.1
+INV-1461,A,Los Angeles,Member,Male,Clothing,16.24,7,5.68,119.36,2026-04-07,19:14:18.517034,Credit card,113.68,5.68,6.7
+INV-1462,A,Chicago,Normal,Female,Home & Garden,43.94,4,8.79,184.55,2026-04-08,19:15:30.661322,Ewallet,175.76,8.79,6.2
+INV-1463,A,New York,Member,Female,Electronics,84.78,5,21.2,445.1,2026-04-09,19:16:42.805611,Credit card,423.9,21.2,2.1
+INV-1464,C,New York,Normal,Male,Electronics,41.46,8,16.58,348.26,2026-04-10,19:17:54.949899,Cash,331.68,16.58,2.9
+INV-1465,C,Los Angeles,Normal,Male,Sports,59.33,1,2.97,62.3,2026-04-11,19:19:07.094188,Credit card,59.33,2.97,3.8
+INV-1466,A,Chicago,Normal,Female,Health & Beauty,60.84,1,3.04,63.88,2026-04-12,19:20:19.238476,Cash,60.84,3.04,2.5
+INV-1467,B,Chicago,Member,Female,Clothing,22.53,4,4.51,94.63,2026-04-13,19:21:31.382765,Credit card,90.12,4.51,3.2
+INV-1468,A,Los Angeles,Member,Male,Sports,39.41,3,5.91,124.14,2026-04-14,19:22:43.527054,Ewallet,118.23,5.91,3.4
+INV-1469,C,Los Angeles,Member,Male,Clothing,36.78,2,3.68,77.24,2026-04-15,19:23:55.671342,Cash,73.56,3.68,4.0
+INV-1470,C,Chicago,Normal,Male,Health & Beauty,7.49,3,1.12,23.59,2026-04-16,19:25:07.815631,Ewallet,22.47,1.12,7.7
+INV-1471,B,New York,Member,Male,Home & Garden,7.3,1,0.36,7.66,2026-04-17,19:26:19.959919,Ewallet,7.3,0.36,6.1
+INV-1472,C,Chicago,Normal,Female,Home & Garden,84.01,1,4.2,88.21,2026-04-18,19:27:32.104208,Cash,84.01,4.2,9.9
+INV-1473,A,Los Angeles,Member,Male,Health & Beauty,30.94,6,9.28,194.92,2026-04-19,19:28:44.248496,Cash,185.64,9.28,4.7
+INV-1474,B,New York,Normal,Male,Sports,54.22,5,13.56,284.66,2026-04-20,19:29:56.392785,Ewallet,271.1,13.56,7.8
+INV-1475,A,New York,Member,Male,Health & Beauty,33.38,8,13.35,280.39,2026-04-21,19:31:08.537074,Ewallet,267.04,13.35,8.8
+INV-1476,A,Los Angeles,Member,Male,Food & Beverages,94.36,2,9.44,198.16,2026-04-22,19:32:20.681362,Ewallet,188.72,9.44,7.1
+INV-1477,B,Los Angeles,Member,Female,Electronics,29.63,4,5.93,124.45,2026-04-23,19:33:32.825651,Ewallet,118.52,5.93,4.7
+INV-1478,A,Los Angeles,Normal,Female,Sports,45.82,8,18.33,384.89,2026-04-24,19:34:44.969939,Cash,366.56,18.33,7.8
+INV-1479,C,Chicago,Normal,Female,Clothing,87.91,6,26.37,553.83,2026-04-25,19:35:57.114228,Cash,527.46,26.37,2.8
+INV-1480,A,Chicago,Member,Male,Food & Beverages,84.98,1,4.25,89.23,2026-04-26,19:37:09.258517,Ewallet,84.98,4.25,3.9
+INV-1481,B,New York,Member,Male,Sports,22.68,4,4.54,95.26,2026-04-27,19:38:21.402805,Credit card,90.72,4.54,5.9
+INV-1482,B,Los Angeles,Normal,Female,Health & Beauty,81.25,1,4.06,85.31,2026-04-28,19:39:33.547094,Credit card,81.25,4.06,6.2
+INV-1483,B,New York,Normal,Male,Health & Beauty,48.53,2,4.85,101.91,2026-04-29,19:40:45.691382,Cash,97.06,4.85,1.2
+INV-1484,A,New York,Normal,Male,Health & Beauty,50.88,5,12.72,267.12,2026-04-30,19:41:57.835671,Ewallet,254.4,12.72,9.5
+INV-1485,B,New York,Member,Female,Health & Beauty,17.68,8,7.07,148.51,2026-05-01,19:43:09.979959,Ewallet,141.44,7.07,7.3
+INV-1486,B,New York,Normal,Female,Clothing,12.66,8,5.06,106.34,2026-05-02,19:44:22.124248,Cash,101.28,5.06,5.5
+INV-1487,A,Los Angeles,Member,Female,Food & Beverages,74.15,3,11.12,233.57,2026-05-03,19:45:34.268537,Credit card,222.45,11.12,9.4
+INV-1488,C,New York,Normal,Female,Home & Garden,52.16,4,10.43,219.07,2026-05-04,19:46:46.412825,Credit card,208.64,10.43,5.0
+INV-1489,A,Los Angeles,Member,Male,Electronics,46.5,6,13.95,292.95,2026-05-05,19:47:58.557114,Credit card,279.0,13.95,9.8
+INV-1490,B,Los Angeles,Normal,Male,Clothing,74.3,3,11.14,234.04,2026-05-06,19:49:10.701402,Cash,222.9,11.14,5.6
+INV-1491,B,Chicago,Normal,Female,Clothing,77.72,2,7.77,163.21,2026-05-07,19:50:22.845691,Credit card,155.44,7.77,2.0
+INV-1492,A,Los Angeles,Normal,Male,Home & Garden,20.1,6,6.03,126.63,2026-05-08,19:51:34.989979,Cash,120.6,6.03,7.9
+INV-1493,C,Chicago,Normal,Female,Home & Garden,62.97,5,15.74,330.59,2026-05-09,19:52:47.134268,Cash,314.85,15.74,7.1
+INV-1494,B,Los Angeles,Normal,Female,Electronics,17.86,5,4.46,93.76,2026-05-10,19:53:59.278557,Ewallet,89.3,4.46,8.0
+INV-1495,B,Los Angeles,Member,Male,Electronics,76.38,5,19.1,401.0,2026-05-11,19:55:11.422845,Credit card,381.9,19.1,9.6
+INV-1496,B,Los Angeles,Normal,Female,Home & Garden,67.41,5,16.85,353.9,2026-05-12,19:56:23.567134,Cash,337.05,16.85,8.0
+INV-1497,A,Chicago,Normal,Male,Health & Beauty,95.88,3,14.38,302.02,2026-05-13,19:57:35.711422,Credit card,287.64,14.38,6.5
+INV-1498,B,Chicago,Normal,Male,Clothing,11.55,7,4.04,84.89,2026-05-14,19:58:47.855711,Credit card,80.85,4.04,8.7
+INV-1499,C,New York,Member,Male,Sports,10.42,6,3.13,65.65,2026-05-15,20:00:00,Ewallet,62.52,3.13,7.1
