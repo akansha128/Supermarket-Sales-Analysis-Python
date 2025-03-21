@@ -1,4 +1,4 @@
-# Customer-Sales-Analysis-Python
+# Supermarket-Sales-Analysis-Python
 # Introduction
 This project involves analyzing a supermarket sales dataset to gain actionable insights using Python. The primary objective is to clean, process, and visualize the data to identify trends and patterns. Through detailed analysis, the project focuses on understanding sales performance across cities, customer preferences in payment methods, gender-based purchasing behavior, and monthly sales trends. Visualizations including bar charts and pie charts help in presenting clear insights, supporting data-driven decision-making for business growth.
 
